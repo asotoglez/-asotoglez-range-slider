@@ -1,1 +1,2 @@
-import Form from "./js/components/Form";
+import RangeSlider from "./js/components/RangeSlider";
+export default RangeSlider
