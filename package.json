@@ -1,9 +1,12 @@
 {
   "name": "@asotoglez/range-slider",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A react range-slider component",
   "main": "./build/index.js",
-  "repository": {"url": "https://github.com/asotoglez/asotoglez-range-slider"},
+  "repository": {
+    "url": "https://github.com/asotoglez/asotoglez-range-slider",
+    "type": "git"
+  },
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
@@ -32,6 +35,5 @@
   },
   "dependencies": {
     "react": ">=16.13.1"
-  },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  }
 }
