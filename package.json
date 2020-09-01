@@ -6,7 +6,9 @@
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
-    "prepublish": "rm -rf ./dist && npm run build"
+    "prepublish": "rm -rf ./dist && npm run build",
+    "major": "npm version major",
+    "minor": "npm version minor"
   },
   "keywords": [],
   "author": "",

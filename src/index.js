@@ -60,14 +60,14 @@ const RangeSlider = ({
   );
 };
 
-Greeting.defaultProps = {
+RangeSlider.defaultProps = {
   min: 0,
-  max = 50,
-  defaultValue = 25,
-  step = 1
+  max: 50,
+  defaultValue: 25,
+  step: 1
 };
 
-Greeting.propTypes = {
+RangeSlider.propTypes = {
   min: PropTypes.number,
   max: PropTypes.number,
   defaultValue: PropTypes.number,
