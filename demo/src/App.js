@@ -5,7 +5,9 @@ import RangeSlider from '@asotoglez/range-slider'
 function App() {
   return (
     <div className="App">
-      <RangeSlider/>
+      <RangeSlider width='20%' max={100} defaultValue={50}/>
+      <RangeSlider width='20%' max={100} defaultValue={0}/>
+      <RangeSlider width='20%' max={100} defaultValue={100}/>
     </div>
   );
 }
