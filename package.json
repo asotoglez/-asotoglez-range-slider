@@ -1,7 +1,7 @@
 {
   "name": "@asotoglez/range-slider",
   "version": "2.1.0",
-  "description": "",
+  "description": "A react range-slider component",
   "main": "./build/index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
